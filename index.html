@@ -40,9 +40,14 @@
         width: 100%;
         margin: 0rem;
       }
-      .title-area {
+      .title1-area {
         width: 15rem;
-        height: 1.5rem;
+        height: 1rem;
+        border-radius: 0.5rem;
+      }
+      .title2-area {
+        width: 13rem;
+        height: 1rem;
         border-radius: 0.5rem;
       }
       .text1-area {
@@ -88,6 +93,15 @@
         font-size: 3rem;
         color: white;
       }
+      .content-area {
+        width: 8rem;
+        height: 1rem;
+      }
+      .centered-elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     </style>
   </head>
   <body>
@@ -108,7 +122,7 @@
     >
       <div class="placeholder image-size ms-5"></div>
       <div class="flex-column ms-5">
-        <div class="bg-secondary title-area mb-3 mt-3"></div>
+        <div class="bg-secondary title1-area mb-3 mt-3"></div>
         <div class="bg-custom-gray text1-area mb-2"></div>
         <div class="bg-custom-gray text2-area mb-2"></div>
         <div class="bg-primary button-area ms-5"></div>
@@ -155,7 +169,7 @@
     </div>
     <!-- Fourth Row -->
     <div
-      class="d-flex flex-row bg-custom-gray justify-content-center align-items-center"
+      class="d-flex flex-row bg-custom-gray justify-content-center align-items-center mt-2"
     >
       <div class="arrow-area me-4">
         <i class="bi bi-chevron-left custom-bold"></i>
@@ -167,6 +181,25 @@
       <div class="bg-white picture-area m-1"></div>
       <div class="arrow-area ms-4">
         <i class="bi bi-chevron-right custom-bold"></i>
+      </div>
+    </div>
+    <!-- Fifth Row -->
+    <div
+      class="d-flex flex-row justify-content-center container-size mt-3 mb-3"
+    >
+      <div class="flex-column ms-5">
+        <div class="bg-secondary title1-area mb-1 mt-3"></div>
+        <div class="bg-secondary title2-area mb-3"></div>
+        <div class="bg-custom-gray text1-area mb-2"></div>
+        <div class="bg-custom-gray text1-area mb-2"></div>
+        <div class="bg-custom-gray text1-area mb-2"></div>
+        <div class="bg-custom-gray text2-area mb-2"></div>
+      </div>
+      <div class="flex-column image-size bg-custom-gray centered-elements ms-5">
+        <div class="bg-white content-area mb-2"></div>
+        <div class="bg-white content-area mb-2"></div>
+        <div class="bg-white content-area mb-2"></div>
+        <div class="bg-primary content-area mt-3"></div>
       </div>
     </div>
   </body>
