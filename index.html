@@ -3,7 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bootstrap Tema 4</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .icon-box {
+        width: 7rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        margin-left: 1rem;
+      }
+      .title-box {
+        width: 5rem;
+        height: 0.5rem;
+        margin-left: 1rem;
+      }
+      .menu-box {
+        width: 5rem;
+        height: 0.5rem;
+        margin-left: 3rem;
+        margin-right: 1rem;
+      }
+      .image-size {
+        width: 10rem;
+        height: 8rem;
+
+        border-radius: 1rem;
+      }
+      .container-size {
+        width: 100%;
+        margin: 0rem;
+      }
+      .title-area {
+        width: 15rem;
+        height: 1.5rem;
+        border-radius: 0.5rem;
+      }
+      .text1-area {
+        width: 13rem;
+        height: 0.5rem;
+        border-radius: 0.5rem;
+      }
+      .text2-area {
+        width: 10rem;
+        height: 0.5rem;
+        border-radius: 0.5rem;
+      }
+      .button-area {
+        width: 10rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+      }
+      .bg-custom-gray {
+        background-color: #c9c8c7;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <!-- Home -->
+    <div
+      class="d-flex flex-row bg-secondary align-items-center"
+      style="height: 3rem"
+    >
+      <div class="bg-white icon-box"></div>
+      <div class="bg-white title-box"></div>
+      <div class="bg-white title-box"></div>
+      <div class="bg-white title-box"></div>
+      <div class="bg-primary menu-box"></div>
+    </div>
+    <!-- First Row -->
+    <div class="d-flex flex-row align-items-center container-size mt-3">
+      <div class="placeholder image-size ms-5"></div>
+      <div class="flex-column ms-5">
+        <div class="bg-secondary title-area mb-3"></div>
+        <div class="bg-custom-gray text1-area mb-2"></div>
+        <div class="bg-custom-gray text2-area mb-2"></div>
+        <div class="bg-primary button-area ms-5"></div>
+      </div>
+    </div>
+  </body>
 </html>
